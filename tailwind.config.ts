@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				gold: "#D4AF37",
+				darkGold: "#AA8C2C",
+			},
+			fontFamily: {
+				'playfair': ['"Playfair Display"', 'serif'],
+				'poppins': ['Poppins', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -89,6 +96,10 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			backgroundImage: {
+				'black-gradient': 'linear-gradient(to right, #0f0f0f, #343434)',
+				'white-gradient': 'linear-gradient(to right, #f4f4f4, #ffffff)',
 			}
 		}
 	},
