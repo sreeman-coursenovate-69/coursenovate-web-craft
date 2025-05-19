@@ -1,9 +1,11 @@
 
+import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="py-12 bg-gray-800 text-white">
+    <footer className="py-12 bg-black text-white">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0 transform hover:scale-105 transition-transform duration-300">
@@ -56,7 +58,31 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t border-gray-700 mt-10 pt-6 text-center">
+        {/* Social Media Links */}
+        <div className="mt-8 flex justify-center space-x-6">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors hover:scale-110 transform duration-300">
+            <Facebook size={24} />
+            <span className="sr-only">Facebook</span>
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors hover:scale-110 transform duration-300">
+            <Twitter size={24} />
+            <span className="sr-only">Twitter</span>
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors hover:scale-110 transform duration-300">
+            <Instagram size={24} />
+            <span className="sr-only">Instagram</span>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors hover:scale-110 transform duration-300">
+            <Linkedin size={24} />
+            <span className="sr-only">LinkedIn</span>
+          </a>
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors hover:scale-110 transform duration-300">
+            <Youtube size={24} />
+            <span className="sr-only">YouTube</span>
+          </a>
+        </div>
+        
+        <div className="border-t border-gray-800 mt-10 pt-6 text-center">
           <p className="text-gray-500 font-poppins text-sm">
             © {currentYear} Coursenovate. All rights reserved.
           </p>

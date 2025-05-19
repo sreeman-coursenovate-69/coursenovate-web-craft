@@ -31,13 +31,13 @@ const Navbar = () => {
     <nav 
       className={`fixed w-full top-0 z-50 transition-all duration-300 ${
         isScrolled 
-          ? 'py-3 bg-white shadow-md' 
-          : 'py-5 bg-white'
+          ? 'py-3 bg-white/80 backdrop-blur-sm shadow-md' 
+          : 'py-5 bg-transparent'
       }`}
     >
       <div className="container mx-auto px-4">
         <div 
-          className={`flex justify-between items-center rounded-full px-6 py-2 transition-all duration-300 ${
+          className={`flex justify-between items-center rounded-full px-6 py-2 transition-all duration-300 bg-white ${
             isScrolled 
               ? 'border border-gold/60' 
               : 'border-2 border-gold'

@@ -17,9 +17,9 @@ const Hero = () => {
   };
 
   return (
-    <section className="pt-32 min-h-screen flex items-center bg-black-gradient">
-      <div className="container mx-auto px-4 py-20">
-        <div className="flex flex-col lg:flex-row items-center justify-between">
+    <section className="min-h-screen flex items-center bg-black-gradient">
+      <div className="container mx-auto px-4 pt-32 pb-20">
+        <div className="flex flex-col lg:flex-row items-center justify-between min-h-[calc(100vh-10rem)]">
           <div 
             className={`lg:w-1/2 mb-12 lg:mb-0 transform transition-all duration-700 ${
               isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'
