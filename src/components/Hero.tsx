@@ -26,10 +26,10 @@ const Hero = () => {
             }`}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-playfair text-white leading-tight mb-6">
-              Transform Your <span className="italic text-gold">Knowledge</span> Into Premium <span className="italic text-gold">Courses</span>
+              Helping Experts Build <span className="italic text-gold">Wildly Successful</span> <span className="italic text-white">Online Courses</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-300 font-poppins mb-10 max-w-xl">
-              At <span className="italic">Coursenovate</span>, we help experts like you turn valuable insights into scalable, high-impact online courses. Your expertise deserves a wider audience.
+              At <span className="italic">Coursenovate</span>, we turn your Expertise into an Impactful and Profitable Online Course.
             </p>
             <Button 
               onClick={scrollToBooking}

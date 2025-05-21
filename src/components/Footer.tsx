@@ -48,10 +48,10 @@ const Footer = () => {
               <h3 className="font-playfair font-bold mb-3 text-gold">Contact</h3>
               <ul className="space-y-2 font-poppins">
                 <li className="text-gray-400 hover:text-gray-200 transition-colors">
-                  info@coursenovate.com
+                  sreemansarathy@gmail.com
                 </li>
                 <li className="text-gray-400 hover:text-gray-200 transition-colors">
-                  +1 (555) 123-4567
+                  +91 96772 28771
                 </li>
               </ul>
             </div>
@@ -60,26 +60,26 @@ const Footer = () => {
         
         {/* Social Media Links */}
         <div className="mt-8 flex justify-center space-x-6">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors hover:scale-110 transform duration-300">
+          {/* <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors hover:scale-110 transform duration-300">
             <Facebook size={24} />
             <span className="sr-only">Facebook</span>
           </a>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors hover:scale-110 transform duration-300">
             <Twitter size={24} />
             <span className="sr-only">Twitter</span>
-          </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors hover:scale-110 transform duration-300">
+          </a> */}
+          <a href="https://www.instagram.com/coursenovate" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors hover:scale-110 transform duration-300">
             <Instagram size={24} />
             <span className="sr-only">Instagram</span>
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors hover:scale-110 transform duration-300">
+          <a href="https://linkedin.com/in/sreemansarathy/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors hover:scale-110 transform duration-300">
             <Linkedin size={24} />
             <span className="sr-only">LinkedIn</span>
           </a>
-          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors hover:scale-110 transform duration-300">
+          {/* <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors hover:scale-110 transform duration-300">
             <Youtube size={24} />
             <span className="sr-only">YouTube</span>
-          </a>
+          </a> */}
         </div>
         
         <div className="border-t border-gray-800 mt-10 pt-6 text-center">

@@ -29,28 +29,28 @@ const Process = () => {
   const steps = [
     {
       number: "01",
-      title: "Discovery & Strategy",
-      description: "We dive deep into your expertise, audience, and goals to create a strategic course roadmap that aligns with your business objectives."
+      title: "Crafting the Vision",
+      description: "Every great course starts with a powerful idea. We sit down with you (virtually or in person) to get clear on your expertise, goals, and the transformation you want to offer your students. This step sets the direction — so your course isn’t just another product, but something with real impact."
     },
     {
       number: "02",
-      title: "Content Architecture",
-      description: "We structure your knowledge into a compelling learning journey, organizing modules and lessons for maximum impact and student transformation."
+      title: "Preparing Course Resources",
+description: "From worksheets to workbooks, slides to scripts — we help you organize and create all the materials your course needs. We also assist with course video creation — whether it’s helping you script, structure, or record high-quality videos that educate and connect. You bring the knowledge, and we’ll help you turn it into engaging, digestible content your students will love."
     },
     {
       number: "03",
-      title: "Engaging Production",
-      description: "Our team handles the creation of professional videos, worksheets, quizzes, and interactive elements that bring your course to life."
+      title: " Developing the Course Backend",
+      description: "Tech shouldn’t be a headache. We handle all the behind-the-scenes setup — your course platform, user experience, payment systems, and automations. So everything runs smoothly, and you stay focused on what matters: delivering value."
     },
     {
       number: "04",
-      title: "Platform Integration",
-      description: "We set up your course on your preferred platform, ensuring seamless student experience with proper testing and optimization."
+      title: "Launching the Course",
+      description: "Launch day, done right. We help you plan and execute a launch strategy that builds excitement, attracts your ideal students, and gets those first sales rolling in. No guesswork — just a clear plan and expert support."
     },
     {
       number: "05",
-      title: "Launch & Scale",
-      description: "We help you plan and execute your course launch, implementing strategies to continuously grow your student base and revenue."
+      title: "Scaling the Course with Marketing That Works",
+      description: "Once your course is live, it’s time to grow. We support you with proven marketing methods — think funnels, email sequences, ads, and organic strategies — tailored to your audience and goals."
     }
   ];
 

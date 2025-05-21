@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 
@@ -7,17 +6,11 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 10) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+      setIsScrolled(window.scrollY > 10);
     };
 
     window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   const scrollToSection = (sectionId: string) => {
@@ -30,17 +23,15 @@ const Navbar = () => {
   return (
     <nav 
       className={`fixed w-full top-0 z-50 transition-all duration-300 ${
-        isScrolled 
-          ? 'py-3 bg-white/80 backdrop-blur-sm shadow-md' 
-          : 'py-5 bg-transparent'
+        isScrolled ? 'py-3' : 'py-5'
       }`}
     >
       <div className="container mx-auto px-4">
         <div 
-          className={`flex justify-between items-center rounded-full px-6 py-2 transition-all duration-300 bg-white ${
+          className={`flex justify-between items-center rounded-full px-6 py-2 transition-all duration-300 ${
             isScrolled 
-              ? 'border border-gold/60' 
-              : 'border-2 border-gold'
+              ? 'bg-white/80 backdrop-blur-sm shadow-md border border-gold/60' 
+              : 'bg-white border-2 border-gold'
           }`}
         >
           <div className="flex items-center">
