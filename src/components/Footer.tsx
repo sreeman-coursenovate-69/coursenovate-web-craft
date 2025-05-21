@@ -48,7 +48,7 @@ const Footer = () => {
               <h3 className="font-playfair font-bold mb-3 text-gold">Contact</h3>
               <ul className="space-y-2 font-poppins">
                 <li className="text-gray-400 hover:text-gray-200 transition-colors">
-                  sreemansarathy@gmail.com
+                  sreeman@coursenovate.online
                 </li>
                 <li className="text-gray-400 hover:text-gray-200 transition-colors">
                   +91 96772 28771
