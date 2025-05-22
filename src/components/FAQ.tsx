@@ -10,27 +10,27 @@ const FAQ = () => {
   const faqs = [
     {
       question: "How long does it take to create a complete course?",
-      answer: "Typically, our course creation process takes 6-12 weeks from initial consultation to launch-ready product. The timeline varies based on course complexity, content volume, and your availability for feedback and approvals."
+      answer: "Typically, it takes 6 to 8 weeks to create a high-quality, structured online course—this includes everything from planning and scripting to recording and publishing. Timelines can vary slightly based on the course complexity and content availability."
     },
     {
       question: "What types of courses do you specialize in?",
-      answer: "We specialize in creating courses across various domains including business, marketing, personal development, creative skills, and professional training. Our approach is adaptable to different subject matters and teaching styles."
+      answer: "We work with coaches, consultants, educators, and service-based professionals to turn their expertise into impactful digital courses. Whether it's a coaching framework, skill-based training, or transformation-led program—we’ve got you covered."
     },
     {
       question: "Do you help with marketing the course after it's created?",
-      answer: "Yes! We offer course launch strategies and marketing support to ensure your course reaches your target audience. Our comprehensive approach includes launch planning, email sequences, sales page optimization, and promotional content creation."
+      answer: "Yes! We offer course marketing support as an add-on. This can include sales funnel setup, email campaigns, social media strategy, and launch planning to ensure your course reaches the right audience."
     },
-    {
-      question: "What platforms do you work with?",
-      answer: "We work with all major course platforms including Teachable, Kajabi, Thinkific, Podia, LearnDash, and custom WordPress solutions. We can recommend the best platform for your specific needs or work with your existing platform."
-    },
+    // {
+    //   question: "What platforms do you work with?",
+    //   answer: "We work with all major course platforms including Teachable, Kajabi, Thinkific, Podia, LearnDash, and custom WordPress solutions. We can recommend the best platform for your specific needs or work with your existing platform."
+    // },
     {
       question: "What's included in your course creation package?",
-      answer: "Our comprehensive package includes course strategy, curriculum design, content organization, production guidance, visual design elements, platform setup, and launch support. We can customize our services based on your specific needs and budget."
+      answer: "Our package typically includes: Course strategy and structure, Scripting & content refinement, Slide design & video editing, Course website creation (landing pages, sign-up flow, payment setup), Entire Course Backend Management, Marketing the course to scale further."
     },
     {
       question: "I don't have all my content organized yet. Can you still help?",
-      answer: "Absolutely! Many clients come to us with just their expertise and ideas. We have a structured process to extract your knowledge and organize it into a coherent, engaging curriculum that resonates with your audience."
+      answer: "Absolutely. Many of our clients start with just an idea or a rough outline. We’ll guide you through our signature framework to help extract your knowledge, organize your content, and shape it into a clear, engaging course."
     }
   ];
 
